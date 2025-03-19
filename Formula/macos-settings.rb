@@ -4,7 +4,7 @@ class MacosSettings < Formula
   
   # This is a "null" formula that doesn't need to download anything
   url "file://#{HOMEBREW_REPOSITORY}/README.md"
-  version "1.0.2"
+  version "1.0.3"
   sha256 "c3391b9f78c5671810d4ca9e4b6837d54736b8690e12f251c2da7621ed74864e"
   
   # Skip these steps since we're not building anything
