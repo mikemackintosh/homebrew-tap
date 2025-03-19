@@ -4,7 +4,7 @@ class MacosSettings < Formula
   
   # This is a "null" formula that doesn't need to download anything
   url "file://#{HOMEBREW_REPOSITORY}/README.md"
-  version "1.0.0"
+  version "1.0.1"
   sha256 "c3391b9f78c5671810d4ca9e4b6837d54736b8690e12f251c2da7621ed74864e"
   
   # Skip these steps since we're not building anything
@@ -13,7 +13,7 @@ class MacosSettings < Formula
     bin.mkpath
     
     # Copy the scripts from the tap repository to the bin directory
-    script_dir = "#{HOMEBREW_REPOSITORY}/Library/Taps/yourusername/homebrew-tap/scripts"
+    script_dir = "#{HOMEBREW_REPOSITORY}/Library/Taps/mikemackintosh/homebrew-tap/scripts"
     
     # Create the apply-macos-settings script
     script_path = "#{bin}/apply-macos-settings"
